@@ -4,7 +4,7 @@ import {useTodo} from "../Contexts/TodoContext"
 export const TodoForm = () => {
 const [todo , setTodo] = useState("")
 
-const {addTodo} = useTodo()
+const {addTodo} = useTodo([])
 
 const add =(e) =>{
     e.preventDefault()
@@ -30,7 +30,8 @@ const add =(e) =>{
             />
             <button 
             type='submit'
-            className='rounded-r-lg px-3 py-1 text-white bg-green-600 shrink-0'>
+            className='rounded-r-lg px-3 py-1 text-white bg-green-600 shrink-0'
+            >
                 Add</button>
         </form>
     </>
