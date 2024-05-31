@@ -21,11 +21,13 @@ export const AddTodo = () => {
         placeholder='Enter a Todo....' 
         value={input}
         onChange={(e)=> setInput(e.target.value)} 
+        required
         />
         <button
         type='submit'
         className='text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none rounded-md text-lg hover:bg-indigo-600'
-        >Add Todo</button>
+        >Add Todo
+       </button>
     </form>
     </>
   )
