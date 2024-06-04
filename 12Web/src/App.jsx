@@ -13,9 +13,7 @@ function App() {
   return (
     <>
         <Header/>
-        
         <Card />
-       
         <Login />
         <Signup />
         <Footer />
