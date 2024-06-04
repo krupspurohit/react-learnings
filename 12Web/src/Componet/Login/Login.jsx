@@ -3,6 +3,8 @@ import React from "react";
 export const Login = () => {
   return (
     <>
+     <div className='font-bold text-xl  text-center'>Login</div>
+
       <div className="flex flex-wrap items-center justify-center w-full">
         <form className="w-1/3">
           <div>
